@@ -5,3 +5,4 @@ export default function Home() {
     <div>This is my home page</div>
   )
 }
+

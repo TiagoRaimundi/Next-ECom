@@ -9,7 +9,7 @@ interface Auth {
 export default function useAuth(): Auth {
   return {
     loading: false,
-    loggedIn: true,
-    isAdmin: true,
+    loggedIn: false,
+    isAdmin: false,
   };
 }
